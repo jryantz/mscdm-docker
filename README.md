@@ -26,4 +26,5 @@ Alternatively, running the one command maps the local folder on your file system
 ## References
 
 [Container, Docker Hub](https://hub.docker.com/r/nginxinc/nginx-unprivileged)
+
 [Container, GitHub](https://github.com/nginxinc/docker-nginx-unprivileged)
