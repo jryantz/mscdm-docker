@@ -9,7 +9,7 @@ EXPOSE 8080
 USER root
 
 RUN chown -R nginx:nginx /var/cache/nginx /var/run /var/log/nginx && \
-    chmod -R 755 /var/cache/nginx /var/run /var/log/nginx
+    chmod -R 755 /var/cache/nginx /var/run /var/log/nginx /usr/share/nginx/html
 
 USER nginx
 
